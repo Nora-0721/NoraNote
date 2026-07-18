@@ -56,4 +56,4 @@
 
 ## 同行寄语
 
-> fjg 说：lcf 加油。
+> 2026-07-18 · [@Link-wushuang](https://github.com/Link-wushuang) 说：lcf 加油，一起上岸。
