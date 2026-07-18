@@ -1,7 +1,0 @@
-# ReAct-ToolUse-Harness-MCP
-
-> 状态：目录占位，正文待补。
-
-## 写作提纲
-
-- 待补
