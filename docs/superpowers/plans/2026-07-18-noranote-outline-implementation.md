@@ -311,7 +311,7 @@ Use the full `daily-plan.md` columns: 日期、阶段、编号、任务、优先
 
 - [ ] **Step 4: Make the README resource cells actionable**
 
-For each 7/18–7/24 row, reserve 2–4 direct must-use resource links plus `[当日完整资源](08-resources/02-july-18-to-24-must-use.md#date-anchor)`. Do not use the link label `教程` by itself.
+For each 7/18–7/24 row, reserve 2–4 direct must-use resource links plus an `当日完整资源` link to that date's anchor in `08-resources/02-july-18-to-24-must-use.md`. Do not use the link label `教程` by itself.
 
 - [ ] **Step 5: Verify schedule coverage**
 
