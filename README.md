@@ -15,10 +15,37 @@ Core: Document everything - recording the learning process itself is a contribut
 | [Agent 开发](08-agent-development/README.md) | [推荐资料](09-resources/README.md) | [背诵清单](10-recite-checklist/README.md) | [面试策略](11-interview-strategy/README.md) |
 | [Java 八股](12-java-basics/README.md) | [后端基础](13-backend-basics/README.md) | [多维表格](table-sync-placeholder.md) | [写作模板](article-template.md) |
 
+### 日期 & 每日任务快捷导航
+
+- 来源：[飞书多维表格：安卓应面 + Agent/支付速通计划表](https://gcnbv9droju6.feishu.cn/wiki/Vq2gwpGSaibpF3kfKy8chSiDnid)
+- 完整任务表：[daily-plan.md](daily-plan.md)
+
+| 日期 | 阶段 | 当日主线 | 快捷 MD 笔记 | 推荐教程/资料 |
+| --- | --- | --- | --- | --- |
+| 2026-07-18 周六 | 投递前抢救 | 整理简历防线和提问清单；Java/Kotlin 面试最小包；Activity 生命周期 + 启动模式；等 6 项 | [项目回答](06-resume-project-defense/03-project-three-part-answer.md) / [算法/背诵](10-recite-checklist/01-android-high-frequency.md) / [Java/Kotlin](02-android-basics/01-java-kotlin-minimum-defense.md) / [集合](12-java-basics/02-java-collections.md) / [JVM/GC](12-java-basics/03-jvm-gc-minimum-defense.md) | 速通目录文档 / [教程](https://kotlinlang.org/docs/home.html) |
+| 2026-07-19 周日 | 投递前抢救 | Java八股：集合框架和 HashMap；四大组件/权限/存储；UI/XML/RecyclerView/自定义 View；等 7 项 | [Java八股](12-java-basics/README.md) / [集合](12-java-basics/02-java-collections.md) / [四大组件](02-android-basics/02-android-components-lifecycle.md) / [权限/存储](02-android-basics/05-permission-storage-network.md) | JavaGuide + 美团技术团队 / [教程](https://developer.android.com/develop/background-work/background-tasks/broadcasts) |
+| 2026-07-20 周一 | 面试前背诵 | Java八股：并发/JUC 最小防线；继续投递并记录岗位 JD；Compose 基础；等 6 项 | [Java八股](12-java-basics/README.md) / [JUC](12-java-basics/04-concurrency-juc-minimum-defense.md) / [协程/错误处理](05-retrofit-okhttp-network/03-interceptor-error-coroutine.md) / [投递/边界](11-interview-strategy/03-project-boundary-honesty.md) | Oracle concurrency tutorial / 招聘平台 |
+| 2026-07-21 周二 | 面试前背诵 | Java八股：口述检测；协程/Flow/StateFlow；SLAM 项目深挖；等 5 项 | [Java八股](12-java-basics/README.md) / [集合](12-java-basics/02-java-collections.md) / [MVVM](03-mvvm-jetpack-architecture/01-mvvm-minimum-model.md) / [ViewModel/Flow](03-mvvm-jetpack-architecture/02-viewmodel-livedata-flow-stateflow.md) / [Compose](04-jetpack-compose/01-compose-core-concepts.md) | 错题本 / [教程](https://developer.android.com/kotlin/coroutines) |
+| 2026-07-22 周三 | 面试前背诵 | 后端基础：HTTP/REST/Session/JWT/CORS/CSRF；AI 命理平台项目闭环；Stripe Checkout/PaymentIntent/订单状态机；等 6 项 | [HTTP](05-retrofit-okhttp-network/01-http-request-chain.md) / [支付](07-payment-engineering/01-payment-core-concepts.md) / [Django](13-backend-basics/04-django-project-defense.md) / [AI命理项目](06-resume-project-defense/02-tellyourfortune-ai.md) / [项目回答](06-resume-project-defense/03-project-three-part-answer.md) | MDN HTTP + Django docs / 项目代码/简历 |
+| 2026-07-23 周四 | 面试前背诵 | 后端基础：Django 项目防线；全量八股快速复盘；项目问答稿定稿；等 6 项 | [项目回答](06-resume-project-defense/03-project-three-part-answer.md) / [支付](07-payment-engineering/01-payment-core-concepts.md) / [Django](13-backend-basics/04-django-project-defense.md) / [Activity/组件](02-android-basics/02-android-components-lifecycle.md) / [Handler/ANR](02-android-basics/03-handler-thread-anr.md) / [MVVM](03-mvvm-jetpack-architecture/01-mvvm-minimum-model.md) | Django docs / 速通目录背诵清单 |
+| 2026-07-24 周五 | 首面冲刺 | Java + 后端临面速记；首面当天速记；面试后复盘；等 4 项 | [集合](12-java-basics/02-java-collections.md) / [支付](07-payment-engineering/01-payment-core-concepts.md) / [Webhook/支付回答](07-payment-engineering/02-payment-interview-order.md) / [Handler/ANR](02-android-basics/03-handler-thread-anr.md) / [Compose](04-jetpack-compose/01-compose-core-concepts.md) / [项目回答](06-resume-project-defense/03-project-three-part-answer.md) | 速通目录 12/13 章 / 个人错题本 |
+| 2026-07-25 周六 | 边面边补 | Hilt/Room/Navigation/WorkManager 小闭环；性能优化基础 | [MVVM](03-mvvm-jetpack-architecture/01-mvvm-minimum-model.md) / [ViewModel/Flow](03-mvvm-jetpack-architecture/02-viewmodel-livedata-flow-stateflow.md) / [Compose](04-jetpack-compose/01-compose-core-concepts.md) / [背诵清单](10-recite-checklist/README.md) | [教程](https://developer.android.com/training/dependency-injection/hilt-android) / Android Developers |
+| 2026-07-26 周日 | 边面边补 | 手写 Compose + MVVM + Retrofit demo；继续投递/约面跟进 | [MVVM](03-mvvm-jetpack-architecture/01-mvvm-minimum-model.md) / [ViewModel/Flow](03-mvvm-jetpack-architecture/02-viewmodel-livedata-flow-stateflow.md) / [Compose](04-jetpack-compose/01-compose-core-concepts.md) / [投递/边界](11-interview-strategy/03-project-boundary-honesty.md) | [教程](https://developer.android.com/codelabs/basic-android-kotlin-compose-getting-data-internet) / 招聘平台 |
+| 2026-07-27 周一 | 边面边补 | Agent 基础系统化；投递 + 面试邀约跟进；后端基础：可靠性补深 | [Agent](08-agent-development/01-agent-vocabulary.md) / [MCP](08-agent-development/03-react-tooluse-harness-mcp.md) / [Agent](08-agent-development/01-agent-vocabulary.md) / [投递/边界](11-interview-strategy/03-project-boundary-honesty.md) | [教程](https://developers.openai.com/api/docs/guides/tools) / 招聘平台 |
+| 2026-07-28 周二 | 边面边补 | 支付进阶：对账/退款/异常；后端可靠性话术 | [支付](07-payment-engineering/01-payment-core-concepts.md) / [后端](13-backend-basics/01-web-request-chain.md) / [JUC](12-java-basics/04-concurrency-juc-minimum-defense.md) / [Stripe](07-payment-engineering/03-stripe-payment-loop-boundary.md) / [支付](07-payment-engineering/01-payment-core-concepts.md) | [教程](https://docs.stripe.com/bank-reconciliation) / Stripe docs + Django docs |
+| 2026-07-29 周三 | 边面边补 | Android 进阶：进程/IPC/Framework 概念；Hot100 高频 10 题；Java八股：JUC/类加载/AQS 扩展 | [Activity/组件](02-android-basics/02-android-components-lifecycle.md) / [算法/背诵](10-recite-checklist/01-android-high-frequency.md) | Android 面试资料 / LeetCode Hot100 |
+| 2026-07-30 周四 | 边面边补 | 项目故事升级；模拟面试 4：综合版 | [项目回答](06-resume-project-defense/03-project-three-part-answer.md) / [项目回答](06-resume-project-defense/03-project-three-part-answer.md) / [支付](07-payment-engineering/01-payment-core-concepts.md) / [Agent](08-agent-development/01-agent-vocabulary.md) | 简历 / 错题本 |
+| 2026-07-31 周五 | 边面边补 | Compose demo 二次完善；面试/投递复盘周报 | [MVVM](03-mvvm-jetpack-architecture/01-mvvm-minimum-model.md) / [Compose](04-jetpack-compose/01-compose-core-concepts.md) / [投递/边界](11-interview-strategy/03-project-boundary-honesty.md) | 自己的 demo / 表格记录 |
+| 2026-08-01 周六 | Offer冲刺 | 错题本全量清理；目标公司二次触达 | [背诵清单](10-recite-checklist/README.md) / [项目回答](06-resume-project-defense/03-project-three-part-answer.md) / [投递/边界](11-interview-strategy/03-project-boundary-honesty.md) | 错题本 / 招聘平台 |
+| 2026-08-02 周日 | Offer冲刺 | RAG/MCP/Skill 实践理解；Hot100 高频 10 题第二组 | [Agent](08-agent-development/01-agent-vocabulary.md) / [MCP](08-agent-development/03-react-tooluse-harness-mcp.md) / [算法/背诵](10-recite-checklist/01-android-high-frequency.md) | OpenAI docs / LeetCode Hot100 |
+| 2026-08-03 周一 | Offer冲刺 | 支付面试深挖稿；集中面试/约面 | [Stripe](07-payment-engineering/03-stripe-payment-loop-boundary.md) / [支付](07-payment-engineering/01-payment-core-concepts.md) / [Webhook/支付回答](07-payment-engineering/02-payment-interview-order.md) / [投递/边界](11-interview-strategy/03-project-boundary-honesty.md) | Stripe docs / 招聘平台 |
+| 2026-08-04 周二 | Offer冲刺 | 终轮/复面准备；安卓高频最后复盘 | [项目回答](06-resume-project-defense/03-project-three-part-answer.md) / [投递/边界](11-interview-strategy/03-project-boundary-honesty.md) / [Activity/组件](02-android-basics/02-android-components-lifecycle.md) / [Handler/ANR](02-android-basics/03-handler-thread-anr.md) / [MVVM](03-mvvm-jetpack-architecture/01-mvvm-minimum-model.md) | 公司官网/JD / 速通目录 |
+| 2026-08-05 周三 | Offer冲刺 | Offer 转化日；若未拿到 offer，调整策略 | [投递/边界](11-interview-strategy/03-project-boundary-honesty.md) | 招聘平台/HR / 投递数据 + 面试记录 |
+
 in process:
 
 - [ ] 逐篇补正文：先 P0 面试防线，再 P1/P2 扩展。
-- [ ] 多维表格内容可读后，回填文章状态、优先级、参考资料和复习节奏。
+- [x] 已同步飞书多维表格，生成日期任务表和快捷导航。
 - [ ] 推荐资料按“官方优先 -> 中文/视频辅助 -> 项目实践”补链接。
 
 ### 使用指南
