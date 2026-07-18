@@ -7,3 +7,4 @@
 - Table: `tblJuq3gycXoCuD0`（速通计划）
 - 本地完整日程：[daily-plan.md](daily-plan.md)
 - 总目录快捷导航：[README.md](README.md#日期--每日任务快捷导航)
+- 资源推荐文档：[09-resources/resource-recommendations.md](09-resources/resource-recommendations.md)

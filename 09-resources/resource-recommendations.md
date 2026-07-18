@@ -1,6 +1,18 @@
-# 中文视频辅助
+# 安卓应面 + Agent/支付 速通推荐资源清单
 
-> 从资源推荐文档抽取：中文资料用于快速建立口述版本，不替代官方文档。
+> 更新日期：2026-07-18  
+> 说明：优先选择讲解清晰、适合面试速通的文章与官方文档。国内以掘金、CSDN、知乎为主，国外以官方文档 + 经典图解为主。每个知识点尽量提供 2–4 个优质链接。
+
+---
+
+## 使用建议（匹配速通节奏）
+
+1. **7/18–7/20**：优先刷 Activity + Handler + 四大组件 + 网络基础（推荐掘金鹏程十八少系列）。
+2. **7/21–7/22**：Compose + MVVM + Retrofit 标准链路。
+3. **7/23**：支付状态机 + Webhook 幂等 + Agent 一句话解释 + 项目追问话术。
+4. 每个知识点准备 **30 秒版 + 2 分钟版**，面试先短答再展开。
+
+---
 
 ## Android 基础八股（P0）
 
@@ -30,6 +42,57 @@
 - 经典参考：《Android 开发艺术探索》相关章节总结（掘金大量优质转载）
 
 ---
+
+## MVVM / Jetpack / 现代架构（P0–P1）
+
+- 官方：[Android App Architecture](https://developer.android.com/topic/architecture)
+- 官方：[UI layer](https://developer.android.com/topic/architecture/ui-layer)
+- 官方：[Data layer](https://developer.android.com/topic/architecture/data-layer)
+- [Android Jetpack Compose + MVVM 开发流程深度分析](https://juejin.cn/post/7529753631354109992)
+- 官方：[ViewModel overview](https://developer.android.com/topic/libraries/architecture/viewmodel)
+
+---
+
+## Jetpack Compose 速通（P0）
+
+### 官方核心文档（必看）
+
+- [Compose State](https://developer.android.com/develop/ui/compose/state)
+- [State Hoisting](https://developer.android.com/develop/ui/compose/state-hoisting)
+- [Compose Architecture](https://developer.android.com/develop/ui/compose/architecture)
+- [Thinking in Compose](https://developer.android.com/develop/ui/compose/mental-model)
+
+### 视频补充
+
+- YouTube 搜索 “Compose + MVVM + Hilt + Room 2025/2026”（推荐 UiLover 等频道最新教程）
+
+---
+
+## Retrofit / OkHttp 网络层（P0）
+
+- [Retrofit + OkHttp 网络请求](https://juejin.cn/post/7652270980880547840)（基础清晰）
+- [2026 金三银四 Android OkHttp 面试核心 45 问](https://juejin.cn/post/7631311804195094564)（鹏程十八少）
+- [OkHttp 架构剖析：从拦截器链到连接池](https://juejin.cn/post/7634002571019288595)
+- 官方：[Retrofit](https://square.github.io/retrofit/)
+- 官方：OkHttp 文档
+
+---
+
+## 支付工程（Stripe）速通（P0–P1）
+
+### 官方必看
+
+- [Stripe Webhooks](https://docs.stripe.com/webhooks)
+- [Idempotent Requests](https://docs.stripe.com/api/idempotent_requests)
+- [Checkout Sessions](https://docs.stripe.com/api/checkout/sessions/create)
+- [Payment Intents](https://docs.stripe.com/payments/payment-intents)
+- [Key best practices](https://docs.stripe.com/keys-best-practices)
+
+### 生产级实践文章（强烈推荐）
+
+- [Stripe Webhooks in Production: The Idempotency Guide](https://dev.to/whoffagents/stripe-webhooks-in-production-the-idempotency-guide-nobody-writes-513k)
+- [Webhook Idempotency Is Not Optional](https://fourteensystems.com/blog/webhook-idempotency-is-not-optional)
+- [Stripe Webhook Best Practices 2026](https://hookray.com/blog/stripe-webhook-best-practices-2026)
 
 ---
 
@@ -63,8 +126,6 @@
 
 ---
 
----
-
 ## Java 基础八股（P0）
 
 - 掘金搜索「2026版 Java 八股面试文」
@@ -73,6 +134,14 @@
 
 ---
 
+## 后端基础（Django + 支付相关）
+
+- Django 官方文档：[docs.djangoproject.com](https://docs.djangoproject.com/)
+- 掘金搜索「Django 请求生命周期」
+- CSDN / 掘金「Django ORM 全面解析」
+- 支付状态机 + 幂等：参考上方 Stripe 生产级文章
+- 订单超时自动取消方案对比：掘金搜索「订单超时自动取消」
+
 ---
 
 ## 综合面试题与知识体系
@@ -80,7 +149,3 @@
 - 掘金搜索「鹏程十八少」（Android 高频面试题系列持续更新）
 - [GitHub - CommonDevKnowledge（BAT 面试题汇集）](https://github.com/AweiLoveAndroid/CommonDevKnowledge)
 - Android 官方架构与 Compose 文档合集（优先看官方）
-
-## 完整资源
-
-- [速通推荐资源清单](./resource-recommendations.md)

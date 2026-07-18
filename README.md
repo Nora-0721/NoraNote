@@ -19,6 +19,7 @@ Core: Document everything - recording the learning process itself is a contribut
 
 - 来源：[飞书多维表格：安卓应面 + Agent/支付速通计划表](https://gcnbv9droju6.feishu.cn/wiki/Vq2gwpGSaibpF3kfKy8chSiDnid)
 - 完整任务表：[daily-plan.md](daily-plan.md)
+- 完整资源清单：[09-resources/resource-recommendations.md](09-resources/resource-recommendations.md)
 
 | 日期 | 阶段 | 当日主线 | 快捷 MD 笔记 | 推荐教程/资料 |
 | --- | --- | --- | --- | --- |
